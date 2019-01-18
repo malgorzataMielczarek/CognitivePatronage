@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+	<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+</style>
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
